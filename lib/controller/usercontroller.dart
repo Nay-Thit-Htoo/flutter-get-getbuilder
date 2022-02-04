@@ -40,7 +40,7 @@ class UserController extends GetxController {
         "https://cdn-icons-png.flaticon.com/128/3011/3011288.png",
         DateTime.now().toString(),
         DateTime.now().toString()),
-  ].obs;
+  ];
 
   RxList<User> updatedUserList = RxList<User>();
   RxList<User> deletedUserList = RxList<User>();
